@@ -1,6 +1,7 @@
 # AI Workspace State
 
-> Last Updated: 2026-07-29
+> Last Updated: 2026-07-31
+> Version: 2.0
 
 ---
 
@@ -8,15 +9,23 @@
 
 Current Phase
 
-Phase 2 — AI Workflow Optimization
+Phase 3 — Prompt Library
 
 Status
 
-In Progress
+Ready to Start
 
 ---
 
-# Environment
+# Current Objective
+
+Build a reusable Prompt Library for AI-assisted software engineering.
+
+The prompt library should be modular, reusable, and designed for future expansion.
+
+---
+
+# Current Environment
 
 Operating System
 
@@ -30,16 +39,17 @@ Terminal
 
 - PowerShell
 
-AI Assistants
+Primary AI Tools
 
-- GitHub Copilot Individual
+- GitHub Copilot
 - GitHub Copilot CLI
-- Cursor Free
+- Cursor
 - ChatGPT
+- RTK
 
 ---
 
-# Installed Tools
+# Installed CLI Tools
 
 | Tool | Status |
 |------|--------|
@@ -69,6 +79,8 @@ Configured
 
 # RTK
 
+Status
+
 Installed
 
 Verified
@@ -83,74 +95,150 @@ Enabled
 
 ---
 
-# Current Focus
+# Workspace Structure
 
-Current objective
-
-Create advanced GitHub Copilot instructions for personal development workflow.
+```text
+AI-ENGINEERING-WORKSPACE
+│
+├── agents/
+│   └── PERSONAL_AGENTS.md
+│
+├── instructions/
+│   ├── global/
+│   │   ├── copilot-instructions.md
+│   │   ├── workflow.md
+│   │   ├── prompting-guide.md
+│   │   ├── search-strategy.md
+│   │   ├── tool-selection.md
+│   │   └── rtk-workflow.md
+│   │
+│   └── repository/
+│       └── copilot-instructions-template.md
+│
+├── ROADMAP.md
+└── WORKSPACE_STATE.md
+```
 
 ---
 
 # Completed
 
-Phase 1
+## Phase 1 — Foundation
+
+Completed
 
 - GitHub CLI
 - GitHub Copilot CLI
 - RTK
-- CLI Tools
-- Delta
-- Git Configuration
+- CLI development tools
+- Git configuration
+- Delta configuration
 
 ---
 
-# Next Task
+## Phase 2 — AI Workflow Optimization
 
-Create advanced global Copilot instructions.
+Completed
 
----
-
-# Notes
-
-This workspace is only for my PERSONAL laptop.
-
-Do not discuss:
-
-- GitHub Copilot Enterprise
-- Office laptop
-- Company configuration
-
-Cursor version
-
-Cursor Free
-
-GitHub Copilot
-
-Individual Plan
+- Personal AI Development Standards
+- Advanced Global Copilot Instructions
+- Repository Copilot Instructions Template
+- AI Engineering Workflow
+- AI Prompting Guide
+- AI Search Strategy
+- AI Tool Selection Guide
+- RTK Workflow Guide
 
 ---
 
-# Decisions
+# Current Focus
 
-Current priority
+Current work
 
-Workflow optimization.
+Design and build the Prompt Library.
 
-Current non-priority
+Current priorities
+
+- Create reusable prompts.
+- Keep prompts modular.
+- Reduce AI token usage.
+- Improve prompt consistency.
+- Standardize engineering workflows.
+
+---
+
+# Next Tasks
+
+### General Engineering
+
+- Analysis
+- Planning
+- Bug Investigation
+- Code Review
+- Refactoring
+- Feature Implementation
+- Documentation
+- Architecture Review
+- Performance Review
+- Testing
+
+### Programming Languages
+
+- TypeScript
+- JavaScript
+
+### Technologies
+
+- React
+- React Native
+
+---
+
+# Current Decisions
+
+Current priorities
+
+- Prompt Library
+- Workflow consistency
+- Reusable prompts
+- Token-efficient AI collaboration
+
+Current non-priorities
 
 - MCP
-- Local LLM
-- Ollama
-- LM Studio
-- Cursor Pro
+- Agent Skills
+- Graphify
+- Local AI models
+- AI automation
+
+These topics will be revisited in later roadmap phases.
 
 ---
 
-# AI Instruction
+# AI Instructions
 
 When continuing this workspace:
 
 - Continue from the current phase.
-- Never repeat completed setup.
-- Focus on practical improvements.
-- Prefer workflow optimization over adding new software.
+- Assume Phase 1 and Phase 2 are complete.
+- Do not repeat completed work.
+- Build on the existing workspace.
+- Prefer updating existing documentation.
+- Maintain a single source of truth.
+- Keep recommendations technology-agnostic whenever possible.
+- Prefer reusable solutions over project-specific ones.
+- Consider token efficiency before introducing additional tooling.
+
+---
+
+# Current Milestone
+
+Prompt Library
+
+Objective
+
+Create a reusable library of engineering prompts that can later be extended with additional languages, technologies, frameworks, libraries, or AI capabilities without restructuring the workspace.
+
+---
+
+# End of Document

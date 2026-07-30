@@ -1,43 +1,41 @@
-# AI Development Workspace Roadmap (Personal Laptop)
+# AI Engineering Workspace Roadmap
 
-> Last Updated: 2026-07-29
-> Status: Phase 1 Completed
-> Owner: Laili Kumala
+> Last Updated: 2026-07-31
+> Version: 2.0
+> Status: Phase 2 Completed
 
 ---
 
 # Purpose
 
-This roadmap is the single source of truth for my personal AI development workspace.
+This roadmap is the single source of truth for the AI Engineering Workspace.
 
-It is intended to:
+Its objectives are to:
 
-- Keep progress between ChatGPT conversations.
-- Prevent repeating completed setup.
-- Track completed and upcoming phases.
-- Standardize AI tooling and workflow.
-- Build an efficient AI-assisted software engineering environment.
+- Track workspace progress across development phases.
+- Standardize AI-assisted software engineering practices.
+- Prevent repeating completed work.
+- Organize AI-related documentation and workflows.
+- Build a maintainable, reusable, and scalable AI engineering environment.
 
 ---
 
 # Scope
 
-This roadmap ONLY applies to my PERSONAL laptop.
+This roadmap applies to my personal AI Engineering Workspace.
 
-DO NOT discuss or include:
+Its purpose is to standardize AI-assisted software engineering workflows,
+documentation, prompt engineering, and repository guidance across projects.
 
-- GitHub Copilot Enterprise
-- Office laptop configuration
-- Company-specific workflow
+The roadmap focuses on:
 
-Current AI stack:
-
-- GitHub Copilot Individual
-- GitHub Copilot CLI
-- RTK
-- VS Code
-- Cursor Free
-- ChatGPT
+- AI engineering workflow
+- Development standards
+- AI instructions
+- Prompt library
+- Repository intelligence
+- Development tooling
+- Workspace evolution
 
 ---
 
@@ -49,37 +47,30 @@ Operating System
 
 Editor
 
-- VS Code
-
-AI Tools
-
-- GitHub Copilot Individual
-- GitHub Copilot CLI
-- Cursor Free
-- ChatGPT
+- Visual Studio Code
 
 Terminal
 
 - PowerShell
 
-Git
+Primary AI Tools
 
-Installed
-
-GitHub CLI
-
-Installed
-
-RTK
-
-Installed
+- GitHub Copilot
+- GitHub Copilot CLI
+- Cursor
+- ChatGPT
+- RTK
 
 ---
 
 # Installed CLI Tools
 
 | Tool | Status |
-|---------|--------|
+|------|--------|
+| Git | ✅ |
+| GitHub CLI | ✅ |
+| GitHub Copilot CLI | ✅ |
+| RTK | ✅ |
 | rg | ✅ |
 | fd | ✅ |
 | jq | ✅ |
@@ -88,50 +79,35 @@ Installed
 
 ---
 
-# Git Configuration
+# Workspace Architecture
 
-Configured
-
-core.pager=delta
-
-interactive.diffFilter=delta --color-only
-
-delta.navigate=true
-
-delta.side-by-side=true
-
-delta.line-numbers=true
-
----
-
-# RTK
-
-Installed
-
-Global Copilot integration enabled.
-
-Current configuration
-
-- Copilot Hook
-- Global Instructions
-- RTK Hook
-- PATH configured
-
-Already tested
-
-- rtk git status
-- rtk git diff
-- rtk gain
-
-RTK is working correctly.
+```text
+AI-ENGINEERING-WORKSPACE
+│
+├── agents/
+│   └── PERSONAL_AGENTS.md
+│
+├── instructions/
+│   ├── global/
+│   │   ├── copilot-instructions.md
+│   │   ├── workflow.md
+│   │   ├── prompting-guide.md
+│   │   ├── search-strategy.md
+│   │   ├── tool-selection.md
+│   │   └── rtk-workflow.md
+│   │
+│   └── repository/
+│       └── copilot-instructions-template.md
+│
+├── ROADMAP.md
+└── WORKSPACE_STATE.md
+```
 
 ---
 
 # Completed Phases
 
-## Phase 1
-
-Foundation
+## Phase 1 — Foundation
 
 Status
 
@@ -142,98 +118,93 @@ Completed Items
 - GitHub CLI
 - GitHub Copilot CLI
 - RTK
-- Global Hook
-- Copilot Instructions
-- rg
-- fd
-- jq
-- bat
-- delta
-- Git Delta configuration
+- CLI development tools
+- Git configuration
+- Delta configuration
 
-DO NOT repeat Phase 1.
+---
+
+## Phase 2 — AI Workflow Optimization
+
+Status
+
+Completed
+
+Completed Items
+
+- Personal AI Development Standards
+- Advanced Global Copilot Instructions
+- Repository Copilot Instructions Template
+- AI Engineering Workflow
+- AI Prompting Guide
+- AI Search Strategy
+- AI Tool Selection Guide
+- RTK Workflow Guide
+
+Do not repeat completed phases.
 
 ---
 
 # Current Phase
 
-Phase 2
-
-AI Workflow Optimization
+## Phase 3 — Prompt Library
 
 Status
 
-Not Started
+Ready to Start
+
+Objective
+
+Create a reusable Prompt Library that standardizes common AI-assisted software engineering tasks.
+
+The library should be modular, maintainable, reusable, and easy to extend.
 
 ---
 
 # Roadmap
 
----
-
-## Phase 2
-
-AI Workflow
+## Phase 3 — Prompt Library
 
 Goal
 
-Improve AI behaviour rather than adding more tools.
+Create reusable engineering prompts.
 
-Tasks
+### General Engineering
 
-- [ ] Create advanced global Copilot instructions.
-- [ ] Create repository-level Copilot instructions.
-- [ ] Optimize RTK usage.
-- [ ] Reduce unnecessary repository scanning.
-- [ ] Improve search strategy.
-- [ ] Standardize AI workflow.
-
-Deliverables
-
-.github/
-
-copilot-instructions.md
-
-.ai/
-
-workflow.md
-
----
-
-## Phase 3
-
-Prompt Library
-
-Goal
-
-Create reusable prompts.
-
-Tasks
-
-- [ ] Bug Analysis
-- [ ] Refactor
+- [ ] Analysis
+- [ ] Planning
+- [ ] Bug Investigation
 - [ ] Code Review
-- [ ] React Native
-- [ ] TypeScript
-- [ ] Testing
+- [ ] Refactoring
+- [ ] Feature Implementation
+- [ ] Documentation
 - [ ] Architecture Review
 - [ ] Performance Review
+- [ ] Testing
+
+### Programming Languages
+
+- [ ] TypeScript
+- [ ] JavaScript
+
+### Technologies
+
+- [ ] React
+- [ ] React Native
 
 Deliverables
 
-.ai/
-
+```text
 prompts/
+```
 
 ---
 
-## Phase 4
-
-AI Documentation
+## Phase 4 — Repository Intelligence
 
 Goal
 
-Help AI understand repositories quickly.
+Help AI understand repositories faster and more accurately.
 
 Tasks
 
@@ -245,50 +216,61 @@ Tasks
 
 Deliverables
 
-.ai/docs/
+```text
+docs/
+```
 
 ---
 
-## Phase 5
-
-Cursor Free Optimization
+## Phase 5 — AI Workspace Optimization
 
 Goal
 
-Optimize Cursor Free only.
+Continuously improve the AI Engineering Workspace.
 
 Tasks
 
-- [ ] Improve agent.md
-- [ ] Reduce context usage.
-- [ ] Improve project understanding.
-- [ ] Standardize prompt style.
-
-NOTE
-
-Cursor Free only.
-
-Do NOT discuss Cursor Pro unless requested.
+- [ ] Improve AI instructions
+- [ ] Optimize repository guidance
+- [ ] Reduce unnecessary AI context
+- [ ] Improve repository understanding
+- [ ] Improve token efficiency
+- [ ] Standardize documentation maintenance
+- [ ] Evaluate additional AI tooling when beneficial
 
 ---
 
-## Phase 6
-
-Advanced AI Workspace
+## Phase 6 — Advanced AI Engineering
 
 Goal
 
-Build an advanced AI-assisted engineering environment.
+Expand the workspace with advanced AI capabilities when they provide clear value.
 
-Potential topics
+Potential Topics
 
+- Agent Skills
+- Graphify
 - MCP
 - AI automation
 - Prompt engineering
-- Local workflow
 - Repository templates
+- Knowledge graph
+- Local AI workflow
 
-Not a priority yet.
+This phase is intentionally deferred until earlier phases are complete.
+
+---
+
+# Milestones
+
+| Milestone | Status |
+|-----------|--------|
+| Workspace Foundation | ✅ |
+| AI Workflow Optimization | ✅ |
+| Prompt Library | ⬜ |
+| Repository Intelligence | ⬜ |
+| AI Workspace Optimization | ⬜ |
+| Advanced AI Engineering | ⬜ |
 
 ---
 
@@ -296,43 +278,34 @@ Not a priority yet.
 
 When continuing this roadmap:
 
-Never repeat completed phases.
-
-Always continue from the current phase.
-
-Avoid installing unnecessary tools.
-
-Prefer workflow optimization over adding software.
-
-Recommend only practical improvements.
-
-Keep recommendations suitable for React Native and TypeScript development.
-
-Always consider token efficiency.
-
-Prefer rg over recursive file scanning.
-
-Prefer fd over slow file searching.
-
-Use bat when reading files in terminal.
-
-Use jq for JSON inspection.
-
-Use delta for git review.
-
-Use RTK whenever long terminal output is expected.
+- Never repeat completed phases.
+- Continue from the current phase.
+- Prefer improving workflows before introducing new tools.
+- Avoid unnecessary dependencies.
+- Keep documentation synchronized.
+- Maintain a single source of truth.
+- Prefer reusable assets over one-off solutions.
+- Design documentation to be technology-agnostic whenever possible.
+- Consider token efficiency in every recommendation.
+- Prefer `rg` for repository search.
+- Prefer `fd` for file discovery.
+- Prefer `bat` for reading files.
+- Prefer `jq` for JSON inspection.
+- Prefer `delta` for Git review.
+- Use RTK when working with large repositories or lengthy terminal output.
 
 ---
 
 # Progress
 
+```text
 Phase 1
 
 ██████████ 100%
 
 Phase 2
 
-□□□□□□□□□□ 0%
+██████████ 100%
 
 Phase 3
 
@@ -349,21 +322,30 @@ Phase 5
 Phase 6
 
 □□□□□□□□□□ 0%
+```
 
 ---
 
 # Next Chat
 
-Continue from:
+Continue from
 
-Phase 2
+**Phase 3 — Prompt Library**
 
-Task:
+Assume:
 
-Create advanced global GitHub Copilot instructions.
+- Phase 1 is complete.
+- Phase 2 is complete.
+- All workflow documentation already exists.
 
-Do NOT restart the roadmap.
+Current Objective
 
-Do NOT repeat completed setup.
+Create a reusable Prompt Library for common AI-assisted software engineering tasks.
 
-Assume all Phase 1 tasks are already completed.
+Do not restart the roadmap.
+
+Continue building on the existing AI Engineering Workspace.
+
+---
+
+# End of Document
