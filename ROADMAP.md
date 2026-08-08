@@ -1,8 +1,8 @@
 # AI Engineering Workspace Roadmap
 
-> Last Updated: 2026-07-31
-> Version: 2.0
-> Status: Phase 2 Completed
+> Last Updated: 2026-08-07
+> Version: 3.0
+> Status: Phase 4 in progress
 
 ---
 
@@ -24,8 +24,7 @@ Its objectives are to:
 
 This roadmap applies to my personal AI Engineering Workspace.
 
-Its purpose is to standardize AI-assisted software engineering workflows,
-documentation, prompt engineering, and repository guidance across projects.
+Its purpose is to standardize AI-assisted software engineering workflows, development standards, prompt engineering, repository guidance, and reusable engineering assets across projects.
 
 The roadmap focuses on:
 
@@ -99,6 +98,32 @@ AI-ENGINEERING-WORKSPACE
 │   └── repository/
 │       └── copilot-instructions-template.md
 │
+├── prompts/
+│   ├── README.md
+│   ├── TEMPLATE.md
+│   │
+│   ├── general-engineering/
+│   │   ├── analysis.md
+│   │   ├── planning.md
+│   │   ├── bug-investigation.md
+│   │   ├── code-review.md
+│   │   ├── refactoring.md
+│   │   ├── feature-implementation.md
+│   │   ├── documentation.md
+│   │   ├── architecture-review.md
+│   │   ├── performance-review.md
+│   │   └── testing.md
+│   │
+│   ├── programming-languages/
+│   │   ├── javascript.md
+│   │   └── typescript.md
+│   │
+│   └── technologies/
+│       ├── react.md
+│       ├── react-native.md
+│       ├── nodejs.md
+│       └── express.md
+│
 ├── ROADMAP.md
 └── WORKSPACE_STATE.md
 ```
@@ -145,52 +170,47 @@ Do not repeat completed phases.
 
 ---
 
-# Current Phase
-
 ## Phase 3 — Prompt Library
 
 Status
 
-Ready to Start
+Completed
 
 Objective
 
-Create a reusable Prompt Library that standardizes common AI-assisted software engineering tasks.
+Create a reusable Prompt Library that standardizes AI-assisted software engineering tasks.
 
-The library should be modular, maintainable, reusable, and easy to extend.
+Completed Items
 
----
+### Core
 
-# Roadmap
-
-## Phase 3 — Prompt Library
-
-Goal
-
-Create reusable engineering prompts.
+- Prompt Library README
+- Prompt Template
 
 ### General Engineering
 
-- [ ] Analysis
-- [ ] Planning
-- [ ] Bug Investigation
-- [ ] Code Review
-- [ ] Refactoring
-- [ ] Feature Implementation
-- [ ] Documentation
-- [ ] Architecture Review
-- [ ] Performance Review
-- [ ] Testing
+- Analysis
+- Planning
+- Bug Investigation
+- Code Review
+- Refactoring
+- Feature Implementation
+- Documentation
+- Architecture Review
+- Performance Review
+- Testing
 
 ### Programming Languages
 
-- [ ] TypeScript
-- [ ] JavaScript
+- JavaScript
+- TypeScript
 
 ### Technologies
 
-- [ ] React
-- [ ] React Native
+- React
+- React Native
+- Node.js
+- Express
 
 Deliverables
 
@@ -198,21 +218,48 @@ Deliverables
 prompts/
 ```
 
+Prompt Library v1.0 is complete.
+
+Do not repeat completed phases.
+
 ---
+
+# Current Phase
+
+## Phase 4 — Repository Intelligence
+
+Status
+
+Ready to Start
+
+Objective
+
+Help AI understand repositories faster and more accurately by providing reusable repository intelligence documents that reduce unnecessary repository scanning, improve engineering context, and standardize project documentation.
+
+---
+
+# Roadmap
 
 ## Phase 4 — Repository Intelligence
 
 Goal
 
-Help AI understand repositories faster and more accurately.
+Help AI understand repositories faster and more accurately by providing reusable repository intelligence documents that reduce unnecessary repository scanning, improve engineering context, and standardize project documentation.
 
-Tasks
+### Core Tasks
 
+- [ ] repository-overview.md
 - [ ] architecture.md
 - [ ] feature-map.md
 - [ ] decisions.md
-- [ ] glossary.md
-- [ ] known-issues.md
+
+### Optional Extensions
+
+Create only when they provide clear value for the repository.
+
+- dependency-map.md
+- glossary.md
+- known-issues.md
 
 Deliverables
 
@@ -264,10 +311,10 @@ This phase is intentionally deferred until earlier phases are complete.
 # Milestones
 
 | Milestone | Status |
-|-----------|--------|
+| ------------------------- | ------ |
 | Workspace Foundation | ✅ |
 | AI Workflow Optimization | ✅ |
-| Prompt Library | ⬜ |
+| Prompt Library | ✅ |
 | Repository Intelligence | ⬜ |
 | AI Workspace Optimization | ⬜ |
 | Advanced AI Engineering | ⬜ |
@@ -309,7 +356,7 @@ Phase 2
 
 Phase 3
 
-□□□□□□□□□□ 0%
+██████████ 100%
 
 Phase 4
 
@@ -330,17 +377,26 @@ Phase 6
 
 Continue from
 
-**Phase 3 — Prompt Library**
+**Phase 4 — Repository Intelligence**
 
 Assume:
 
 - Phase 1 is complete.
 - Phase 2 is complete.
+- Phase 3 is complete.
 - All workflow documentation already exists.
 
 Current Objective
 
-Create a reusable Prompt Library for common AI-assisted software engineering tasks.
+Create reusable repository intelligence documents that improve AI understanding of software repositories.
+
+Recommended implementation order:
+
+1. repository-overview.md
+2. architecture.md
+3. feature-map.md
+4. decisions.md
+
 
 Do not restart the roadmap.
 
