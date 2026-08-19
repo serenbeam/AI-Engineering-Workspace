@@ -1,8 +1,8 @@
 # AI Engineering Workspace Roadmap
 
-> Last Updated: 2026-08-07
-> Version: 3.0
-> Status: Phase 4 in progress
+> Last Updated: 2026-08-19
+> Version: 3.1
+> Status: Phase 4 complete
 
 ---
 
@@ -224,13 +224,13 @@ Do not repeat completed phases.
 
 ---
 
-# Current Phase
+# Latest Completed Phase
 
 ## Phase 4 — Repository Intelligence
 
 Status
 
-Ready to Start
+Completed
 
 Objective
 
@@ -248,10 +248,10 @@ Help AI understand repositories faster and more accurately by providing reusable
 
 ### Core Tasks
 
-- [ ] repository-overview.md
-- [ ] architecture.md
-- [ ] feature-map.md
-- [ ] decisions.md
+- [x] repository-overview.md
+- [x] architecture.md
+- [x] feature-map.md
+- [x] decisions.md
 
 ### Optional Extensions
 
@@ -315,7 +315,7 @@ This phase is intentionally deferred until earlier phases are complete.
 | Workspace Foundation | ✅ |
 | AI Workflow Optimization | ✅ |
 | Prompt Library | ✅ |
-| Repository Intelligence | ⬜ |
+| Repository Intelligence | ✅ |
 | AI Workspace Optimization | ⬜ |
 | Advanced AI Engineering | ⬜ |
 
@@ -360,7 +360,7 @@ Phase 3
 
 Phase 4
 
-□□□□□□□□□□ 0%
+██████████ 100%
 
 Phase 5
 
@@ -375,28 +375,21 @@ Phase 6
 
 # Next Chat
 
-Continue from
+Phase status
 
-**Phase 4 — Repository Intelligence**
+**Phase 4 — Repository Intelligence is complete.**
 
 Assume:
 
 - Phase 1 is complete.
 - Phase 2 is complete.
 - Phase 3 is complete.
+- Phase 4 is complete.
 - All workflow documentation already exists.
 
-Current Objective
+Current state
 
-Create reusable repository intelligence documents that improve AI understanding of software repositories.
-
-Recommended implementation order:
-
-1. repository-overview.md
-2. architecture.md
-3. feature-map.md
-4. decisions.md
-
+The Repository Intelligence v1.0 core documents are complete. Do not begin Phase 5 until it is separately scoped.
 
 Do not restart the roadmap.
 

@@ -6,7 +6,7 @@ Record significant, evidence-supported decisions that explain why this workspace
 
 ## Context
 
-This documentation-first workspace standardizes reusable assets for AI-assisted engineering. `ROADMAP.md` identifies the workspace plan and `WORKSPACE_STATE.md` records the current Phase 4 Repository Intelligence focus.
+This documentation-first workspace standardizes reusable assets for AI-assisted engineering. `ROADMAP.md` identifies the workspace plan and `WORKSPACE_STATE.md` records the completed Phase 4 Repository Intelligence milestone.
 
 The repository has no dedicated ADR directory or formal decision-record format. The decisions below are reconstructed from current authoritative documentation and relevant Git history; unrecorded rationale and alternatives are identified as unknown.
 
@@ -22,7 +22,7 @@ It excludes personal engineering preferences, routine content choices, individua
 
 | Decision | Evidence | Confirmed rationale | Consequence |
 | --- | --- | --- | --- |
-| Use a phase-based roadmap as the workspace plan. | `ROADMAP.md` defines completed phases, current Phase 4, future phases, and describes itself as the single source of truth. | Track progress, prevent repeated work, organize reusable assets, and support workspace evolution. | New workspace capabilities are planned and tracked by phase. |
+| Use a phase-based roadmap as the workspace plan. | `ROADMAP.md` defines completed phases, future phases, and describes itself as the single source of truth. | Track progress, prevent repeated work, organize reusable assets, and support workspace evolution. | New workspace capabilities are planned and tracked by phase. |
 | Separate personal standards, global instructions, task prompts, repository instructions, and repository intelligence by responsibility. | `agents/`, `instructions/`, `prompts/`, and `docs/` are distinct top-level areas with distinct stated purposes. | Avoid duplicated responsibilities and preserve clear sources of truth. | Repository knowledge belongs in `docs/`; AI behavior, operating methods, and task requests remain in their respective layers. |
 | Organize the prompt library by purpose. | `prompts/README.md` defines the `general-engineering/`, `programming-languages/`, and `technologies/` categories. | Enable growth without changing the library's overall structure while retaining reusable, focused prompts. | New prompts should be placed in the narrowest appropriate category and begin from `prompts/TEMPLATE.md`. |
 | Introduce repository intelligence as a dedicated Phase 4 capability. | `ROADMAP.md` and `WORKSPACE_STATE.md` define the Phase 4 goal, milestone, and core documents. | Reduce unnecessary repository exploration, improve AI context, and standardize repository documentation. | `docs/` uses `docs/TEMPLATE.md` as its shared repository-intelligence standard. |
@@ -40,16 +40,16 @@ It excludes personal engineering preferences, routine content choices, individua
 
 - Changes to a responsibility layer should preserve its stated boundary rather than duplicate content from another layer.
 - New repository-intelligence documents must follow `docs/TEMPLATE.md` and reference source-of-truth material.
-- The roadmap may require status maintenance when new deliverables are created; current Phase 4 checkboxes do not yet reflect the existing documents in `docs/`.
+- The roadmap must be maintained when new deliverables are created so its phase status reflects the existing documentation.
 
 ## References
 
 - `ROADMAP.md` - workspace phases, phase objectives, core deliverables, and roadmap governance.
-- `WORKSPACE_STATE.md` - current phase, priorities, environment, and installed tooling.
+- `WORKSPACE_STATE.md` - completed milestone, priorities, environment, and installed tooling.
 - `docs/TEMPLATE.md` - repository-intelligence standard.
 - `docs/repository-overview.md` - repository identity and component context.
 - `docs/architecture.md` - responsibility layers and architectural boundaries.
-- `docs/feature-map.md` - capability locations and current Phase 4 document status.
+- `docs/feature-map.md` - capability locations and completed Phase 4 document status.
 - `prompts/README.md` and `prompts/TEMPLATE.md` - prompt-library organization and authoring model.
 - `instructions/global/tool-selection.md` and `instructions/global/search-strategy.md` - documented tool responsibilities and exploration approach.
 - Git history - staged prompt-library commits through `b6cd47e`.

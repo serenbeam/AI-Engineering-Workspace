@@ -6,7 +6,7 @@ Provide a high-level index of this personal AI Engineering Workspace so AI assis
 
 ## Context
 
-This repository is a documentation-first workspace for standardizing AI-assisted software engineering across projects. `ROADMAP.md` records Phases 1-3 as complete; `WORKSPACE_STATE.md` records Phase 4, Repository Intelligence, as in progress.
+This repository is a documentation-first workspace for standardizing AI-assisted software engineering across projects. `ROADMAP.md` and `WORKSPACE_STATE.md` record Phases 1-4 as complete, including Repository Intelligence.
 
 The workspace separates reusable engineering standards, operational instructions, task prompts, and repository knowledge. This overview describes the repository itself; detailed guidance remains in its authoritative documents.
 
@@ -24,8 +24,8 @@ It excludes detailed architecture, feature mapping, decisions, task procedures, 
 | --- | --- |
 | Repository type | Personal AI engineering workspace and reusable documentation asset library. |
 | Primary objective | Standardize AI-assisted engineering practices, reusable prompts, repository guidance, and repository intelligence. |
-| Current milestone | Repository Intelligence v1.0. |
-| Current phase | Phase 4 - Repository Intelligence. |
+| Latest completed milestone | Repository Intelligence v1.0. |
+| Latest completed phase | Phase 4 - Repository Intelligence. |
 
 ### Structure
 
@@ -84,4 +84,4 @@ Revise or remove claims when their source documents no longer support them. Do n
 
 - The absence of application tooling is a confirmed observation from the current repository root; revise this statement if package, build, test, runtime, or deployment configuration is added.
 - The repository instruction template is `instructions/repository/copilot_instructions-template.md`.
-- `ROADMAP.md` labels the current Phase 4 section "Ready to Start" and leaves its core tasks unchecked, while `WORKSPACE_STATE.md` reports the phase as in progress and all four core documents are present in `docs/`. Treat the current state as a documented status discrepancy until the roadmap is updated.
+- Phase 4 — Repository Intelligence is complete. Its four core documents are `repository-overview.md`, `architecture.md`, `feature-map.md`, and `decisions.md`.

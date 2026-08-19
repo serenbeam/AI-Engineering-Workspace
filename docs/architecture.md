@@ -8,7 +8,7 @@ Describe the workspace's documentation architecture: its responsibility layers, 
 
 This is a documentation-first AI Engineering Workspace, not a deployable software system. Its architecture organizes reusable engineering assets by responsibility so that guidance, task requests, and repository knowledge remain distinct.
 
-`ROADMAP.md` and `WORKSPACE_STATE.md` identify Repository Intelligence as the current Phase 4 focus. This document complements `docs/repository-overview.md` by describing relationships and boundaries rather than repeating the repository inventory.
+`ROADMAP.md` and `WORKSPACE_STATE.md` record Repository Intelligence as the completed Phase 4 milestone. This document complements `docs/repository-overview.md` by describing relationships and boundaries rather than repeating the repository inventory.
 
 ## Scope
 
