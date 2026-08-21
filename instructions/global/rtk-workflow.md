@@ -107,6 +107,10 @@ RTK is most beneficial when:
 
 Use RTK only when it improves clarity or efficiency.
 
+Use direct commands for focused output. Switch to RTK when output exceeds what
+can be reviewed in one focused pass, requires repeated narrowing, or would
+otherwise require copying excessive terminal content into AI context.
+
 ---
 
 # When RTK Is Not Required
@@ -222,8 +226,8 @@ This document complements the other documents in the AI Engineering Workspace.
 
 | Document | Primary Responsibility |
 |----------|------------------------|
-| PERSONAL_AGENTS.md | Engineering principles |
-| copilot-instructions.md | AI behaviour |
+| `agents/PERSONAL_AGENTS.md` | Engineering principles |
+| `copilot_instructions.md` | AI behaviour |
 | workflow.md | Standard engineering workflow |
 | prompting-guide.md | Communication with AI |
 | search-strategy.md | Repository exploration strategy |

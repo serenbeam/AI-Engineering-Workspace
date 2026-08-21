@@ -11,3 +11,9 @@
 | `decisions.md` | Significant repository-level decisions, supporting evidence, and known uncertainty. |
 
 Use the most specific document first, then follow its repository-relative references for authoritative detail. Update the relevant document when its covered repository knowledge or source of truth changes.
+
+For a workspace change, perform a focused documentation impact check: update
+the relevant intelligence document for changed facts, `decisions.md` for a
+material decision, `ROADMAP.md` for phase direction or deliverables, and
+`WORKSPACE_STATE.md` for current status or priorities. Do not update
+unaffected documents.

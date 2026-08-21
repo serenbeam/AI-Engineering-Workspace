@@ -24,13 +24,22 @@ Use the following workflow for non-trivial engineering tasks:
 
 1. Select the prompt category and effort level that match the task.
 2. Copy `TEMPLATE.md` and replace its guidance with task-specific information.
-3. Provide only relevant files, documentation, requirements, and constraints.
+3. Provide only the authoritative repository instructions, documentation, requirements, and files directly relevant to the task.
 4. Ask the AI to analyse the existing implementation before proposing a change when the task is not straightforward.
 5. Review the proposed approach, risks, and trade-offs before implementation.
 6. Implement the smallest maintainable change that satisfies the objective.
 7. Verify the expected behavior and update relevant documentation when necessary.
 
 For small, focused tasks, use only the applicable steps. For large or high-impact work, separate analysis, planning, implementation, and verification into distinct requests when practical.
+
+## Progressive Disclosure
+
+Start with the minimum context needed to complete the task safely. Add repository instructions, files, requirements, or documentation only when they directly govern the task or become necessary during investigation.
+
+- Link or reference authoritative material instead of pasting long content.
+- Summarize previously inspected files, findings, and decisions; provide exact paths only when the AI needs to inspect them.
+- Select task-specific references rather than automatically including generic global documents.
+- Choose the smallest effort level that provides a reliable result, and increase it only when scope, risk, or evidence requires it.
 
 ## Structure
 
@@ -64,7 +73,7 @@ Start each new library prompt from `TEMPLATE.md`. Preserve its sections unless a
 3. **Scope** identifies the included files, modules, or areas.
 4. **Requirements** defines expected quality and behavior.
 5. **Constraints** protects unaffected behavior and limits unnecessary changes.
-6. **References** links relevant repository guidance or documentation.
+6. **References** links only authoritative repository guidance or documentation directly relevant to the task.
 7. **Expected Output** defines the required deliverable.
 8. **Effort** selects the appropriate task size.
 
@@ -138,7 +147,8 @@ Use **Small** for a narrowly scoped explanation, correction, or review. Use **Me
 
 - Keep each prompt focused on one engineering outcome.
 - State the objective before providing context.
-- Reference only documentation and files relevant to the task.
+- Use progressive disclosure: provide minimal context first and add task-specific authoritative references only as needed.
+- Link to long material instead of pasting it, and summarize content already inspected.
 - Prefer explicit constraints over implied assumptions.
 - Request evidence for analysis and review tasks.
 - Define a verifiable expected output for implementation tasks.

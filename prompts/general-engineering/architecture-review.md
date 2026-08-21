@@ -36,18 +36,7 @@ Review only the specified architecture, its direct dependencies, and the boundar
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/code-review.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, architecture documentation, requirements, and evidence directly relevant to this architecture review. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

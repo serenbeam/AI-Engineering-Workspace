@@ -36,18 +36,7 @@ Update only the specified documentation and the directly related sections needed
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/feature-implementation.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, source-of-truth documentation, requirements, and implementation context directly relevant to this update. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

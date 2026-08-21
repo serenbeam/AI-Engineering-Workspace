@@ -46,7 +46,7 @@ It excludes individual prompt internals, application features, runtime flows, an
 ### Boundaries and Uncertainty
 
 - No product-facing features, screens, routes, services, databases, or executable application flows are confirmed in the repository.
-- Phase 4 is complete; its four core documents are present in `docs/`.
+- Phases 4 and 5 are complete; Phase 4's four core documents remain in `docs/`.
 - The mapped capabilities are confirmed by current files and directories. Their detailed behavior remains defined by the referenced documents.
 
 ## References
@@ -55,8 +55,8 @@ It excludes individual prompt internals, application features, runtime flows, an
 - `docs/repository-overview.md` - repository identity, component index, and environment context.
 - `docs/architecture.md` - responsibility layers, boundaries, and information flows.
 - `prompts/README.md` and `prompts/TEMPLATE.md` - prompt-library structure and authoring conventions.
-- `ROADMAP.md` - completed capabilities, Phase 4 deliverables, and future roadmap phases.
-- `WORKSPACE_STATE.md` - completed Phase 4 milestone, workspace priorities, and environment.
+- `ROADMAP.md` - completed capabilities, Phase 4 and 5 deliverables, and future roadmap phases.
+- `WORKSPACE_STATE.md` - completed Phase 5 milestone, workspace priorities, and environment.
 - `agents/PERSONAL_AGENTS.md` and `instructions/global/` - authoritative guidance assets mapped above.
 
 ## Maintenance

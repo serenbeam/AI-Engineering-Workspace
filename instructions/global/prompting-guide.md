@@ -315,13 +315,24 @@ Provide only the information required for the current task.
 
 Prefer:
 
-- relevant files,
-- relevant functions,
-- relevant modules,
-- related documentation,
-- specific features.
+- the most specific authoritative source,
+- relevant files, functions, modules, or features,
+- a concise summary of already inspected evidence,
+- links or repository-relative paths for material the AI can access.
 
 Avoid requesting repository-wide analysis unless genuinely necessary.
+
+## Progressive Context Disclosure
+
+Start with the objective, scope, constraints, and the smallest set of
+authoritative references. Ask the AI to inspect the cited source first.
+Provide additional files, excerpts, logs, or history only when the first
+inspection leaves a concrete question unanswered.
+
+Do not paste long documentation, source files, or terminal output when a
+repository-relative reference is sufficient. When direct access is
+unavailable, provide a concise summary first and add the exact excerpt needed
+to resolve the task.
 
 ---
 
@@ -453,8 +464,8 @@ This guide complements the other documents in the AI Engineering Workspace.
 
 | Document | Primary Responsibility |
 |----------|------------------------|
-| PERSONAL_AGENTS.md | Engineering principles and collaboration standards |
-| copilot-instructions.md | Global AI behaviour |
+| `agents/PERSONAL_AGENTS.md` | Engineering principles and collaboration standards |
+| `copilot_instructions.md` | Global AI behaviour |
 | workflow.md | Standard engineering workflows |
 | prompting-guide.md | Effective communication with AI |
 | Repository Copilot Instructions | Repository-specific knowledge |

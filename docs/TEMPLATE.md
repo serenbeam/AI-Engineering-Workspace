@@ -48,6 +48,11 @@ Revise or remove claims that are no longer supported by their authoritative sour
 
 Do not update it for unrelated or temporary implementation details.
 
+Before updating, identify whether the change also affects a repository-level
+decision, phase plan, or current workspace state. Update only
+`docs/decisions.md`, `ROADMAP.md`, or `WORKSPACE_STATE.md` when their
+respective source-of-truth responsibilities are affected.
+
 
 ## Notes
 

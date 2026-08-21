@@ -252,6 +252,17 @@ Collect only the necessary context.
 
 Proceed with analysis or implementation.
 
+## Tool Evaluation
+
+Evaluate an additional AI or development tool only when a confirmed workflow
+gap remains after applying the existing guidance and tools. Record the
+objective, evidence of the gap, compatibility, maintenance and security cost,
+expected workflow benefit, and context impact. Adopt the tool only when its
+measurable benefit outweighs those costs.
+
+Record a material adoption, rejection, or replacement decision in
+`docs/decisions.md`. Do not install or introduce a tool solely to evaluate it.
+
 ---
 
 # Decision Tree
@@ -357,8 +368,8 @@ Avoid:
 
 | Document | Primary Responsibility |
 |----------|------------------------|
-| PERSONAL_AGENTS.md | Engineering principles |
-| copilot-instructions.md | AI behaviour |
+| `agents/PERSONAL_AGENTS.md` | Engineering principles |
+| `copilot_instructions.md` | AI behaviour |
 | workflow.md | Engineering workflows |
 | prompting-guide.md | Communication with AI |
 | search-strategy.md | Repository exploration strategy |

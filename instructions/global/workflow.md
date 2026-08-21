@@ -164,6 +164,19 @@ Keep documentation aligned with implementation.
 
 Documentation accurately reflects the current implementation.
 
+## Documentation Impact Check
+
+Before completing a change that affects repository guidance, confirm whether it
+changes:
+
+1. a responsibility, location, or capability in `docs/`;
+2. a repository-level decision in `docs/decisions.md`;
+3. phase status, deliverables, or direction in `ROADMAP.md`; or
+4. current objective, environment, or priorities in `WORKSPACE_STATE.md`.
+
+Update only the applicable source-of-truth document and its direct references.
+Do not update every document by default.
+
 ---
 
 # Dependency Update

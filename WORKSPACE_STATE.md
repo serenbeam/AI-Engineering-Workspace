@@ -1,7 +1,7 @@
 # AI Workspace State
 
-> Last Updated: 2026-08-19
-> Version: 3.1
+> Last Updated: 2026-08-21
+> Version: 3.2
 
 ---
 
@@ -9,7 +9,7 @@
 
 Current Phase
 
-Phase 4 — Repository Intelligence
+Phase 5 — AI Workspace Optimization
 
 Status
 
@@ -19,7 +19,8 @@ Completed
 
 # Current Objective
 
-Record the completed Repository Intelligence v1.0 milestone and maintain its documentation as the workspace evolves.
+Record the completed AI Workspace Optimization milestone and maintain its
+existing guidance as the workspace evolves.
 
 The completed documentation reduces unnecessary repository scanning, improves engineering context, and remains reusable across projects.
 
@@ -105,7 +106,7 @@ AI-ENGINEERING-WORKSPACE
 │
 ├── instructions/
 │   ├── global/
-│   │   ├── copilot-instructions.md
+│   │   ├── copilot_instructions.md
 │   │   ├── workflow.md
 │   │   ├── prompting-guide.md
 │   │   ├── search-strategy.md
@@ -113,7 +114,7 @@ AI-ENGINEERING-WORKSPACE
 │   │   └── rtk-workflow.md
 │   │
 │   └── repository/
-│       └── copilot-instructions-template.md
+│       └── copilot_instructions-template.md
 │
 ├── prompts/
 │   ├── README.md
@@ -121,6 +122,14 @@ AI-ENGINEERING-WORKSPACE
 │   ├── general-engineering/
 │   ├── programming-languages/
 │   └── technologies/
+│
+├── docs/
+│   ├── README.md
+│   ├── TEMPLATE.md
+│   ├── repository-overview.md
+│   ├── architecture.md
+│   ├── feature-map.md
+│   └── decisions.md
 │
 ├── ROADMAP.md
 └── WORKSPACE_STATE.md
@@ -171,11 +180,11 @@ Completed
 
 # Current Focus
 
-Repository Intelligence v1.0 — Completed
+AI Workspace Optimization — Completed
 
 Current priorities
 
-- Maintain the completed repository-intelligence documentation.
+- Maintain the completed Phase 5 guidance.
 - Keep repository documentation reusable across projects.
 - Preserve documentation consistency and token-efficient AI collaboration.
 
@@ -185,7 +194,7 @@ Current priorities
 
 Current priorities
 
-- Completed Repository Intelligence v1.0
+- Completed AI Workspace Optimization
 - Reusable repository documentation
 - AI context optimization
 - Documentation consistency
@@ -207,10 +216,10 @@ These topics will be revisited in later roadmap phases.
 
 When continuing this workspace:
 
-- Treat Phase 4 as complete.
-- Assume Phases 1–4 are complete.
+- Treat Phase 5 as complete.
+- Assume Phases 1–5 are complete.
 - Do not repeat completed work.
-- Do not begin Phase 5 until it is separately scoped.
+- Do not begin Phase 6 until it is separately scoped.
 - Build on the existing workspace.
 - Maintain a single source of truth.
 - Prefer reusable documentation over project-specific documentation.
@@ -221,11 +230,13 @@ When continuing this workspace:
 
 # Current Milestone
 
-Repository Intelligence v1.0 — Completed
+AI Workspace Optimization — Completed
 
 Objective
 
-Established a reusable documentation standard that enables AI assistants to understand software repositories consistently while minimizing repository exploration and redundant context.
+Improved existing AI guidance, repository guidance, context use, repository
+understanding, token efficiency, documentation maintenance, and tooling
+evaluation without adding duplicate documentation layers.
 
 ---
 

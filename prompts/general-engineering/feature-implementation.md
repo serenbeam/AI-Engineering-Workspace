@@ -36,20 +36,7 @@ Implement only the specified feature and the direct changes required to support 
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/bug-investigation.md`
-- `prompts/general-engineering/code-review.md`
-- `prompts/general-engineering/refactoring.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, approved requirements, relevant analysis or plans, and implementation documentation directly relevant to this feature. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

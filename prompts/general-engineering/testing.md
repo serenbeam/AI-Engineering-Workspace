@@ -36,18 +36,7 @@ Test only the specified behavior, its direct dependencies, and regression paths 
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/feature-implementation.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, behavior requirements, implementation details, and test documentation directly relevant to this testing task. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

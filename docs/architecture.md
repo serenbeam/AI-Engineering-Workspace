@@ -8,7 +8,7 @@ Describe the workspace's documentation architecture: its responsibility layers, 
 
 This is a documentation-first AI Engineering Workspace, not a deployable software system. Its architecture organizes reusable engineering assets by responsibility so that guidance, task requests, and repository knowledge remain distinct.
 
-`ROADMAP.md` and `WORKSPACE_STATE.md` record Repository Intelligence as the completed Phase 4 milestone. This document complements `docs/repository-overview.md` by describing relationships and boundaries rather than repeating the repository inventory.
+`ROADMAP.md` and `WORKSPACE_STATE.md` record AI Workspace Optimization as the completed Phase 5 milestone. This document complements `docs/repository-overview.md` by describing relationships and boundaries rather than repeating the repository inventory.
 
 ## Scope
 
@@ -60,7 +60,7 @@ The arrows express responsibility and intended consultation, not runtime depende
 | Workspace evolution | Confirmed | `ROADMAP.md` defines phases and deliverables; `WORKSPACE_STATE.md` records current status, priorities, and environment. |
 | Reusable asset authoring | Confirmed | Templates in `prompts/TEMPLATE.md`, `instructions/repository/`, and `docs/TEMPLATE.md` standardize assets created in their respective directories. |
 | AI-assisted repository work | Inferred from document responsibilities | An AI assistant combines applicable personal standards, operating instructions, task prompts, and repository intelligence while treating the target repository as the source of truth. |
-| Repository intelligence maintenance | Confirmed | Repository knowledge is updated when its covered structure, architecture, features, decisions, dependencies, configuration, or authoritative sources change. |
+| Repository intelligence maintenance | Confirmed | Repository knowledge is updated when its covered structure, architecture, features, decisions, dependencies, configuration, or authoritative sources change; the documentation impact check identifies whether governance documents also need updates. |
 
 ### Architectural Constraints
 

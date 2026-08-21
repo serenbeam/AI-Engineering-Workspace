@@ -39,19 +39,7 @@ Work only within the specified JavaScript areas and their direct dependencies. I
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/code-review.md`
-- `prompts/general-engineering/refactoring.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, runtime and module configuration, requirements, and implementation or test context directly relevant to this JavaScript task. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

@@ -187,6 +187,11 @@ Avoid duplicate documentation.
 
 Maintain a single source of truth whenever possible.
 
+When repository-intelligence documents exist, use them for evidence-based
+repository facts such as structure, architecture, feature locations, and
+decisions. This template should define repository-specific operational rules
+and link to those documents rather than duplicate their contents.
+
 ---
 
 # AI Expectations
@@ -238,7 +243,9 @@ When creating a new repository:
 
 The purpose of this document is to help AI understand the repository quickly while preserving consistency with the existing codebase.
 
-Repository knowledge should be centralised here rather than duplicated across multiple documents.
+Repository-specific operational guidance should be centralised here.
+Repository facts should remain in their most specific authoritative
+documentation and be referenced when needed.
 
 ---
 

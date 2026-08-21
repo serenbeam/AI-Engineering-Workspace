@@ -1,8 +1,8 @@
 # AI Engineering Workspace Roadmap
 
-> Last Updated: 2026-08-19
-> Version: 3.1
-> Status: Phase 4 complete
+> Last Updated: 2026-08-21
+> Version: 3.2
+> Status: Phase 5 complete
 
 ---
 
@@ -88,7 +88,7 @@ AI-ENGINEERING-WORKSPACE
 │
 ├── instructions/
 │   ├── global/
-│   │   ├── copilot-instructions.md
+│   │   ├── copilot_instructions.md
 │   │   ├── workflow.md
 │   │   ├── prompting-guide.md
 │   │   ├── search-strategy.md
@@ -96,7 +96,7 @@ AI-ENGINEERING-WORKSPACE
 │   │   └── rtk-workflow.md
 │   │
 │   └── repository/
-│       └── copilot-instructions-template.md
+│       └── copilot_instructions-template.md
 │
 ├── prompts/
 │   ├── README.md
@@ -123,6 +123,14 @@ AI-ENGINEERING-WORKSPACE
 │       ├── react-native.md
 │       ├── nodejs.md
 │       └── express.md
+│
+├── docs/
+│   ├── README.md
+│   ├── TEMPLATE.md
+│   ├── repository-overview.md
+│   ├── architecture.md
+│   ├── feature-map.md
+│   └── decisions.md
 │
 ├── ROADMAP.md
 └── WORKSPACE_STATE.md
@@ -226,7 +234,7 @@ Do not repeat completed phases.
 
 # Latest Completed Phase
 
-## Phase 4 — Repository Intelligence
+## Phase 5 — AI Workspace Optimization
 
 Status
 
@@ -234,7 +242,9 @@ Completed
 
 Objective
 
-Help AI understand repositories faster and more accurately by providing reusable repository intelligence documents that reduce unnecessary repository scanning, improve engineering context, and standardize project documentation.
+Improve existing AI instructions, repository guidance, context usage, repository
+understanding, token efficiency, documentation maintenance, and tooling
+evaluation without repeating earlier phases.
 
 ---
 
@@ -277,13 +287,13 @@ Continuously improve the AI Engineering Workspace.
 
 Tasks
 
-- [ ] Improve AI instructions
-- [ ] Optimize repository guidance
-- [ ] Reduce unnecessary AI context
-- [ ] Improve repository understanding
-- [ ] Improve token efficiency
-- [ ] Standardize documentation maintenance
-- [ ] Evaluate additional AI tooling when beneficial
+- [x] Improve AI instructions
+- [x] Optimize repository guidance
+- [x] Reduce unnecessary AI context
+- [x] Improve repository understanding
+- [x] Improve token efficiency
+- [x] Standardize documentation maintenance
+- [x] Evaluate additional AI tooling when beneficial
 
 ---
 
@@ -316,7 +326,7 @@ This phase is intentionally deferred until earlier phases are complete.
 | AI Workflow Optimization | ✅ |
 | Prompt Library | ✅ |
 | Repository Intelligence | ✅ |
-| AI Workspace Optimization | ⬜ |
+| AI Workspace Optimization | ✅ |
 | Advanced AI Engineering | ⬜ |
 
 ---
@@ -364,7 +374,7 @@ Phase 4
 
 Phase 5
 
-□□□□□□□□□□ 0%
+██████████ 100%
 
 Phase 6
 
@@ -377,7 +387,7 @@ Phase 6
 
 Phase status
 
-**Phase 4 — Repository Intelligence is complete.**
+**Phase 5 — AI Workspace Optimization is complete.**
 
 Assume:
 
@@ -385,11 +395,13 @@ Assume:
 - Phase 2 is complete.
 - Phase 3 is complete.
 - Phase 4 is complete.
+- Phase 5 is complete.
 - All workflow documentation already exists.
 
 Current state
 
-The Repository Intelligence v1.0 core documents are complete. Do not begin Phase 5 until it is separately scoped.
+The Phase 5 optimization changes are complete. Do not begin Phase 6 until it
+is separately scoped.
 
 Do not restart the roadmap.
 

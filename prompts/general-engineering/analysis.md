@@ -31,7 +31,7 @@ Analyse only the specified areas and their direct dependencies. Expand the scope
 
 ## References
 
-Include applicable repository instructions, architecture documentation, requirements, issue reports, and related implementation details.
+Include only authoritative repository instructions, requirements, issue reports, architecture documentation, and implementation details directly relevant to this analysis. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

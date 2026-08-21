@@ -36,18 +36,7 @@ Review only the specified performance area, its direct execution path, and depen
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/code-review.md`
-- `prompts/general-engineering/architecture-review.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, performance objectives, measurements, profiling evidence, and architecture documentation directly relevant to this review. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

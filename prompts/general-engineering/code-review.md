@@ -33,18 +33,7 @@ Review the specified changes and their direct dependencies. Focus on behavior af
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/bug-investigation.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, change requirements, and implementation context directly relevant to this review. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

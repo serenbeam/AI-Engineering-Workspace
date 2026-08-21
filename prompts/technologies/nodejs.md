@@ -43,21 +43,7 @@ Work only within the specified Node.js areas and their direct dependencies. Iden
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/code-review.md`
-- `prompts/general-engineering/refactoring.md`
-- `prompts/programming-languages/javascript.md`
-- `prompts/programming-languages/typescript.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, runtime and module configuration, service contracts, security requirements, and implementation or test context directly relevant to this Node.js task. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

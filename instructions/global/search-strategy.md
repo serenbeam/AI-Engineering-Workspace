@@ -102,6 +102,11 @@ Examples include:
 
 Documentation often provides sufficient context without reading implementation.
 
+For this workspace, start with `docs/README.md`, then read the most specific
+repository-intelligence document it identifies. Use `ROADMAP.md` for phase
+scope and `WORKSPACE_STATE.md` for current status only when those facts are
+needed.
+
 ---
 
 # File Discovery
@@ -308,8 +313,8 @@ This document complements the other documents in the AI Engineering Workspace.
 
 | Document | Primary Responsibility |
 |----------|------------------------|
-| PERSONAL_AGENTS.md | Engineering principles |
-| copilot-instructions.md | AI behaviour |
+| `agents/PERSONAL_AGENTS.md` | Engineering principles |
+| `copilot_instructions.md` | AI behaviour |
 | workflow.md | Engineering workflows |
 | prompting-guide.md | Communication with AI |
 | search-strategy.md | Repository exploration strategy |

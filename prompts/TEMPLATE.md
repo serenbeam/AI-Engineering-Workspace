@@ -16,7 +16,7 @@ Describe the relevant project context.
 
 Include only the information necessary to complete the task.
 
-Reference existing documentation when appropriate.
+Use progressive disclosure: link to authoritative material instead of pasting long content, and summarize files or findings that were already inspected.
 
 ---
 
@@ -59,17 +59,9 @@ Examples:
 
 # References
 
-Include relevant documents when applicable.
+Reference only authoritative repository instructions, requirements, or documentation that directly govern this task. Do not automatically include generic global documents.
 
-Examples
-
-- PERSONAL_AGENTS.md
-- ROADMAP.md
-- WORKSPACE_STATE.md
-- AGENTS.md
-- Architecture documentation
-- ADRs
-- Feature documentation
+Use repository-relative paths when retained, for example `agents/PERSONAL_AGENTS.md`.
 
 ---
 
@@ -90,7 +82,7 @@ Examples
 
 # Effort
 
-Select one:
+Choose the smallest sufficient effort level. Increase effort only when the task's scope, risk, or required investigation makes it necessary.
 
 ## Small
 

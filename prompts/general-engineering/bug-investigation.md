@@ -32,15 +32,7 @@ Investigate the reported behavior and its direct dependencies. Expand the scope 
 
 ## References
 
-Review applicable guidance and task context:
-
-- `PERSONAL_AGENTS.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, defect reports, requirements, and implementation evidence directly relevant to this investigation. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

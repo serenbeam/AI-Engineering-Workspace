@@ -33,16 +33,7 @@ Define the intended outcome, affected files, modules, or systems, and explicitly
 
 ## References
 
-Review applicable guidance and task context:
-
-- `PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, approved requirements, relevant analysis, and implementation context directly relevant to this plan. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

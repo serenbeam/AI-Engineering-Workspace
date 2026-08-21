@@ -47,7 +47,7 @@ When multiple instruction sources exist, follow them in this order:
 1. Direct user instructions
 2. Repository-specific instructions
 3. Global Copilot instructions (this document)
-4. PERSONAL_AGENTS.md
+4. `agents/PERSONAL_AGENTS.md`
 5. Tool defaults
 
 Always follow the highest-priority applicable instruction.
@@ -73,17 +73,13 @@ Always:
 
 # Standard Task Workflow
 
-Unless instructed otherwise, approach every task using the following workflow:
+This document defines default AI behaviour. Use
+`instructions/global/workflow.md` for the task workflow and the applicable
+prompt for task-specific output requirements. Do not repeat their full
+procedures in a request unless the task needs an explicit exception.
 
-1. Understand the request.
-2. Locate the relevant implementation.
-3. Inspect only the required context.
-4. Analyse the current behaviour.
-5. Plan the intended changes.
-6. Implement the minimum necessary modification.
-7. Verify correctness and consistency.
-
-Avoid generating code before understanding the existing implementation.
+For every task, understand the request, inspect only the required context,
+make the minimum justified change, and verify the result.
 
 ---
 
@@ -128,9 +124,10 @@ Read only the information required for the current task.
 
 Prefer:
 
-- inspecting individual functions,
-- reading relevant sections,
-- reusing previously inspected context.
+- the most specific authoritative document,
+- inspecting relevant sections or symbols rather than whole files,
+- reusing a concise summary of previously inspected evidence,
+- linking to long material instead of pasting it when the AI can access it.
 
 Avoid loading unnecessary files including:
 
@@ -141,6 +138,10 @@ Avoid loading unnecessary files including:
 - temporary files
 
 unless explicitly required.
+
+Expand context only when the available evidence cannot answer the current
+question. Do not make generic standards or every related prompt a required
+input when repository-specific guidance is sufficient.
 
 ---
 

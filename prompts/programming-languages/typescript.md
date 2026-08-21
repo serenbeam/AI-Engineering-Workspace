@@ -42,20 +42,7 @@ Work only within the specified TypeScript areas and their direct dependencies. I
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/programming-languages/javascript.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/code-review.md`
-- `prompts/general-engineering/refactoring.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, compiler and runtime configuration, type contracts, and implementation or test context directly relevant to this TypeScript task. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 

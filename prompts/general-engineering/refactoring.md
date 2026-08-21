@@ -33,19 +33,7 @@ Refactor only the specified areas and their direct dependencies. Define the beha
 
 ## References
 
-Review applicable guidance and task context:
-
-- `agents/PERSONAL_AGENTS.md`
-- `ROADMAP.md`
-- `WORKSPACE_STATE.md`
-- `prompts/README.md`
-- `prompts/TEMPLATE.md`
-- `prompts/general-engineering/analysis.md`
-- `prompts/general-engineering/planning.md`
-- `prompts/general-engineering/bug-investigation.md`
-- `prompts/general-engineering/code-review.md`
-- `instructions/global/workflow.md`
-- `instructions/global/prompting-guide.md`
+Include only authoritative repository instructions, behavior requirements, relevant analysis, and implementation or test context directly relevant to this refactoring. Link rather than paste long material, and summarize content already inspected.
 
 ## Expected Output
 
