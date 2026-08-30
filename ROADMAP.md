@@ -238,7 +238,7 @@ Do not repeat completed phases.
 
 Status
 
-Completed
+Completed — capability work present; closure evidence remains partial for some tasks
 
 Objective
 
@@ -295,26 +295,55 @@ Tasks
 - [x] Standardize documentation maintenance
 - [x] Evaluate additional AI tooling when beneficial
 
+### Closure Reconciliation
+
+Current Phase 5 output files demonstrate that the guidance, repository-boundary,
+progressive-disclosure, and documentation-impact capabilities exist. The following
+status distinctions remain: Improve AI instructions — PARTIAL; Optimize repository
+guidance — VERIFIED; Reduce unnecessary AI context — VERIFIED; Improve repository
+understanding — PARTIAL; Improve token efficiency — PARTIAL; Standardize
+documentation maintenance — VERIFIED; Evaluate additional AI tooling when
+beneficial — PARTIAL. The tooling evaluation process exists, but no specific tool
+has been evaluated or adopted.
+
 ---
 
-## Phase 6 — Advanced AI Engineering
+## Phase 6 — Evidence-Based Advanced Workflow Selection
+
+Status
+
+Deferred / Waiting for Evidence
 
 Goal
 
-Expand the workspace with advanced AI capabilities when they provide clear value.
+Consider advanced AI capabilities only when a documented recurring workflow
+problem is not adequately handled by the Phase 1–5 baseline.
 
-Potential Topics
+Current state
 
+No confirmed recurring workflow gap currently exists. No advanced capability is
+approved for adoption, and no specific advanced tool has been evaluated.
+
+Deferred candidates
+
+The following are future considerations, not implementation tasks:
+
+- MCP
 - Agent Skills
 - Graphify
-- MCP
-- AI automation
-- Prompt engineering
-- Repository templates
-- Knowledge graph
 - Local AI workflow
+- AI automation
+- Knowledge graph
+- Repository templates
+- Additional prompt-engineering infrastructure
 
-This phase is intentionally deferred until earlier phases are complete.
+Activation condition
+
+Documented workflow gap → define the required capability → evaluate only relevant
+candidates → adopt, defer, or reject based on evidence.
+
+Deferred candidates must not be evaluated or implemented until the activation
+condition is satisfied.
 
 ---
 
@@ -400,8 +429,11 @@ Assume:
 
 Current state
 
-The Phase 5 optimization changes are complete. Do not begin Phase 6 until it
-is separately scoped.
+The Phase 5 capability work is complete with documented closure limitations. Phase
+6 is separately scoped but remains deferred: no confirmed recurring workflow gap
+exists, no advanced capability is approved, and deferred candidates are not
+implementation tasks. Do not begin Phase 6 evaluation or implementation until
+the activation condition is satisfied.
 
 Do not restart the roadmap.
 

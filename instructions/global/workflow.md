@@ -37,6 +37,7 @@ Use the workflow that best matches the current task.
 | Update documentation | Documentation Update |
 | Upgrade dependencies | Dependency Update |
 | Understand a repository | Repository Exploration |
+| Assess project documentation | Project Documentation Adoption |
 
 ---
 
@@ -219,6 +220,162 @@ Understand only the repository context required for the current task.
 ## Expected Outcome
 
 Efficient repository understanding with minimal unnecessary context.
+
+---
+
+# Project Documentation Adoption
+
+## Objective
+
+Determine the minimum project documentation needed to support requirements,
+constraints, workflows, maintainability, AI navigation, and durable project
+knowledge without creating duplicate sources of truth.
+
+This workflow applies to both new and existing application repositories. The
+candidate roles are `AGENTS.md`, `PRD.md`, `README.md`,
+`docs/architecture.md`, `docs/feature-map.md`, and `docs/decisions.md`. These
+are documentation roles, not mandatory filenames or a required six-file set.
+
+## Core Principle
+
+Create or adopt documentation only when its expected value justifies its
+maintenance and complexity cost. A missing canonical filename is not evidence
+that documentation is missing.
+
+## Required Assessment
+
+Before assigning an action to a role, assess the following using observable
+evidence. Mark unavailable information `UNKNOWN` or `INSUFFICIENT EVIDENCE`.
+
+1. **Requirements** — product, functional, technical, acceptance, lifecycle,
+   and explicit documentation requirements.
+2. **Constraints** — project maturity, complexity, contributors, timeline,
+   technology, governance, deployment, maintenance, and documented
+   security or compliance requirements.
+3. **Project context** — new or existing repository, repository scale, major
+   features, expected growth, change frequency, AI-assisted development, and
+   onboarding needs.
+4. **Existing documentation** — location, purpose, authority, owner,
+   maintenance state, consumers, references, overlap, and conflicts.
+5. **Documentation value** — problem solved, consumers, expected use,
+   prevented failure, preserved knowledge, and likely stability.
+6. **Maintenance cost** — update frequency, ownership, staleness risk,
+   duplication, synchronization burden, cognitive overhead, and repository
+   complexity.
+7. **Source-of-truth risk** — whether the required information already exists
+   in an authoritative document.
+
+Do not invent requirements, constraints, ownership, or project facts.
+
+## Priority and Action
+
+Classify priority independently from action:
+
+- `MUST` — required for an important project need.
+- `SHOULD` — valuable but not immediately essential.
+- `COULD` — useful but low priority.
+- `DEFER` — insufficient value or evidence at present.
+
+Use exactly one action:
+
+- `KEEP` — an appropriate authoritative document already occupies the role.
+- `REUSE` — an equivalent document fulfills the role under another name or
+  location.
+- `UPDATE` — an existing role document needs substantive correction or
+  completion.
+- `CREATE` — no suitable document exists and the role has demonstrated value.
+- `MERGE` — multiple documents substantially overlap and should be consolidated.
+- `DEFER` — the role is unnecessary, premature, unsupported, or not currently
+  valuable.
+
+Priority must not determine action. For example, a `MUST` role may be `REUSE`,
+and a `COULD` role may be `DEFER`.
+
+## New Project Workflow
+
+### New Project → Context Assessment → Role Evaluation → Trade-Off → Decision → Adoption Plan
+
+1. Assess purpose, requirements, constraints, maturity, complexity,
+   contributors, lifecycle, and documentation consumers.
+2. Evaluate each candidate role independently for need, evidence, consumers,
+   value, maintenance cost, duplication risk, and priority.
+3. Compare the expected benefit with maintenance, staleness, synchronization,
+   and complexity costs.
+4. Assign `CREATE` only to roles with demonstrated value and `DEFER` to roles
+   not justified by evidence.
+5. Produce an adoption plan containing role, path, purpose, owner, source
+   material, priority, dependencies, and maintenance responsibility.
+6. Generate only documents approved by the adoption plan.
+7. Verify that requirements, product knowledge, AI operating rules,
+   repository facts, architecture, and decisions have distinct ownership.
+
+Do not create all candidate roles by default.
+
+## Existing Project Workflow
+
+### Existing Project → Inventory → Semantic Mapping → Gap/Overlap Analysis → Value/Cost Analysis → Decision → Adoption Plan
+
+1. Inventory relevant documentation beyond canonical filenames.
+2. Establish apparent authority from references, project conventions,
+   ownership, update patterns, and explicit statements.
+3. Map existing documents to candidate roles by semantic purpose, scope,
+   authority, consumers, and maintenance ownership.
+4. Detect a gap only when a meaningful need exists and current documentation
+   does not adequately support it.
+5. Detect duplicate or conflicting sources, ambiguous ownership, and
+   substantially overlapping scope.
+6. Compare KEEP, REUSE, UPDATE, MERGE, CREATE, and DEFER alternatives.
+7. Assign exactly one action to each relevant role and record the minimum
+   justified adoption plan.
+8. Do not rename, move, split, or merge documents solely to match canonical
+   filenames or directories.
+
+## Semantic Equivalence and Duplicate Prevention
+
+Filename matching is discovery evidence only. Determine equivalence using:
+
+- primary purpose and scope;
+- authority and source-of-truth status;
+- expected content coverage;
+- consumers;
+- ownership and maintenance responsibility;
+- references and project conventions.
+
+For example, `docs/product-requirements.md` may fulfill the `PRD` role,
+`docs/system-design.md` may fulfill the architecture role, and an ADR
+collection may fulfill the decisions role. Reuse these documents when they
+adequately serve the role rather than creating canonical-name duplicates.
+
+A document may serve more than one role only when its combined scope,
+authority, and ownership remain clear. Product requirements must not be mixed
+with AI operating rules; repository facts must not be duplicated in project
+instructions; architecture and decisions must not be copied into multiple
+competing sources of truth.
+
+## Decision Record
+
+For each non-trivial role decision, record enough reasoning to make it
+explainable:
+
+- Role and current document(s)
+- Priority and project need
+- Requirements and constraints
+- Evidence and existing coverage
+- Consumers and ownership
+- Overlap risk
+- Expected benefit and maintenance cost
+- Trade-off
+- Decision and reason
+- Target path and dependencies, when applicable
+
+Use `N/A` or `UNKNOWN` where a field does not apply or evidence is unavailable.
+
+## Expected Outcome
+
+A minimum adoption plan that identifies what to KEEP, REUSE, UPDATE, CREATE,
+MERGE, or DEFER, with evidence and trade-offs. The plan must not treat
+canonical filenames as mandatory and must not create documentation solely to
+standardize appearance.
 
 ---
 

@@ -9,11 +9,11 @@
 
 Current Phase
 
-Phase 5 — AI Workspace Optimization
+Phase 5 — AI Workspace Optimization (completed); Phase 6 — Evidence-Based Advanced Workflow Selection (deferred)
 
 Status
 
-Completed
+Phase 5 capability work complete; Phase 6 waiting for evidence
 
 ---
 
@@ -180,7 +180,14 @@ Completed
 
 # Current Focus
 
-AI Workspace Optimization — Completed
+Phase 6 — Evidence-Based Advanced Workflow Selection
+
+Status
+
+Deferred / Waiting for Evidence
+
+No confirmed recurring workflow gap currently exists beyond the Phase 1–5
+baseline. No advanced capability is currently approved for adoption.
 
 Current priorities
 
@@ -202,13 +209,25 @@ Current priorities
 
 Current non-priorities
 
+Deferred candidates — not implementation tasks:
+
 - MCP
 - Agent Skills
 - Graphify
-- Local AI models
+- Local AI workflow
 - AI automation
+- Knowledge graph
+- Repository templates
+- Additional prompt-engineering infrastructure
 
-These topics will be revisited in later roadmap phases.
+The Phase 5 tooling-evaluation criteria/process exists, but no specific tool has
+been evaluated or adopted. Deferred candidates must not be evaluated or
+implemented without evidence of a confirmed recurring workflow gap.
+
+Activation condition
+
+Documented workflow gap → define the required capability → evaluate only relevant
+candidates → adopt, defer, or reject based on evidence.
 
 ---
 
@@ -216,10 +235,10 @@ These topics will be revisited in later roadmap phases.
 
 When continuing this workspace:
 
-- Treat Phase 5 as complete.
-- Assume Phases 1–5 are complete.
+- Treat Phase 5 capability work as complete; retain its documented closure limitations.
+- Assume Phases 1–5 capability work is complete.
 - Do not repeat completed work.
-- Do not begin Phase 6 until it is separately scoped.
+- Do not begin Phase 6 implementation until a confirmed recurring workflow gap is documented and the relevant capability is separately scoped.
 - Build on the existing workspace.
 - Maintain a single source of truth.
 - Prefer reusable documentation over project-specific documentation.
@@ -230,13 +249,19 @@ When continuing this workspace:
 
 # Current Milestone
 
-AI Workspace Optimization — Completed
+AI Workspace Optimization — Capability work complete; closure evidence partial
 
 Objective
 
 Improved existing AI guidance, repository guidance, context use, repository
 understanding, token efficiency, documentation maintenance, and tooling
 evaluation without adding duplicate documentation layers.
+
+Closure note
+
+The current Phase 5 outputs contain the implemented guidance changes. Some task
+outcomes remain PARTIAL because completion was not independently measured or
+recorded; no specific additional tool was evaluated or adopted.
 
 ---
 
