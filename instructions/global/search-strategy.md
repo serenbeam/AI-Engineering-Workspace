@@ -307,9 +307,9 @@ Avoid:
 
 ---
 
-# Relationship with Other AI Workspace Documents
+# Relationship with Other KHWAMI Documents
 
-This document complements the other documents in the AI Engineering Workspace.
+This document complements the other KHWAMI documents.
 
 | Document | Primary Responsibility |
 |----------|------------------------|

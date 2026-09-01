@@ -2,17 +2,17 @@
 
 ## Purpose
 
-Map the workspace's major reusable capabilities to their primary documentation and template locations so AI assistants can locate the right asset without broad repository exploration.
+Map KHWAMI's major reusable capabilities to their primary documentation and template locations so AI assistants can locate the right asset without broad repository exploration.
 
 ## Context
 
-This repository is a documentation-first AI Engineering Workspace. Its features are reusable engineering guidance, task prompts, templates, and workspace records rather than user-facing application functionality.
+KHWAMI is a documentation-first repository. Its features are reusable engineering guidance, task prompts, templates, and KHWAMI records rather than user-facing application functionality.
 
 This map uses `docs/repository-overview.md` for repository context and `docs/architecture.md` for responsibility boundaries. It identifies where capabilities are implemented without repeating their detailed contents.
 
 ## Scope
 
-This document covers confirmed workspace capabilities and their primary implementation locations.
+This document covers confirmed KHWAMI capabilities and their primary implementation locations.
 
 It excludes individual prompt internals, application features, runtime flows, and planned-but-unimplemented repository-intelligence documents.
 
@@ -30,7 +30,7 @@ It excludes individual prompt internals, application features, runtime flows, an
 | Technology-specific prompt guidance | `prompts/technologies/` | `react.md`, `react-native.md`, `nodejs.md`, `express.md` | Confirmed |
 | Prompt-library authoring | `prompts/README.md`, `prompts/TEMPLATE.md` | All prompt categories | Confirmed |
 | Repository-intelligence authoring | `docs/TEMPLATE.md` | `docs/repository-overview.md`, `docs/architecture.md`, `docs/feature-map.md`, and `docs/decisions.md` | Confirmed |
-| Workspace planning and state tracking | `ROADMAP.md`, `WORKSPACE_STATE.md` | All workspace layers | Confirmed |
+| KHWAMI planning and state tracking | `ROADMAP.md`, `WORKSPACE_STATE.md` | All KHWAMI layers | Confirmed |
 
 ### Feature Location Guide
 
@@ -40,7 +40,7 @@ It excludes individual prompt internals, application features, runtime flows, an
 | Determine how AI should approach work | `instructions/global/copilot_instructions.md` and the relevant document in `instructions/global/` |
 | Create repository-specific AI guidance | `instructions/repository/copilot_instructions-template.md` |
 | Select or author a reusable task prompt | `prompts/README.md`, then the applicable prompt category |
-| Understand the workspace repository | `docs/repository-overview.md`, then `docs/architecture.md` |
+| Understand KHWAMI | `docs/repository-overview.md`, then `docs/architecture.md` |
 | Check phase status, priorities, or planned deliverables | `ROADMAP.md` and `WORKSPACE_STATE.md` |
 
 ### Boundaries and Uncertainty
@@ -56,12 +56,12 @@ It excludes individual prompt internals, application features, runtime flows, an
 - `docs/architecture.md` - responsibility layers, boundaries, and information flows.
 - `prompts/README.md` and `prompts/TEMPLATE.md` - prompt-library structure and authoring conventions.
 - `ROADMAP.md` - completed capabilities, Phase 4 and 5 deliverables, and future roadmap phases.
-- `WORKSPACE_STATE.md` - completed Phase 5 milestone, workspace priorities, and environment.
+- `WORKSPACE_STATE.md` - completed Phase 5 milestone, KHWAMI priorities, and environment.
 - `agents/PERSONAL_AGENTS.md` and `instructions/global/` - authoritative guidance assets mapped above.
 
 ## Maintenance
 
-Update this map when a workspace capability is added, removed, renamed, moved, or materially reorganized, or when its authoritative implementation location changes.
+Update this map when a KHWAMI capability is added, removed, renamed, moved, or materially reorganized, or when its authoritative implementation location changes.
 
 Revise or remove entries that no longer correspond to existing repository assets. Do not update this map for wording-only changes that do not change a capability or its location.
 

@@ -55,7 +55,7 @@ Avoid:
 
 # Supported Tools
 
-This workspace currently includes the following tools.
+KHWAMI currently includes the following tools.
 
 | Tool | Primary Responsibility |
 |------|-------------------------|
@@ -68,7 +68,7 @@ This workspace currently includes the following tools.
 | delta | Git diff review |
 | RTK | Terminal output enhancement |
 
-This document should be updated whenever new core development tools become part of the workspace.
+This document should be updated whenever new core development tools become part of KHWAMI.
 
 ---
 
@@ -364,7 +364,7 @@ Avoid:
 
 ---
 
-# Relationship with Other AI Workspace Documents
+# Relationship with Other KHWAMI Documents
 
 | Document | Primary Responsibility |
 |----------|------------------------|
@@ -384,7 +384,7 @@ Each document has a distinct responsibility and should avoid duplicating informa
 
 # Future Expansion
 
-As the AI Engineering Workspace evolves, additional tools may be incorporated into this guide.
+As KHWAMI evolves, additional tools may be incorporated into this guide.
 
 Examples include:
 

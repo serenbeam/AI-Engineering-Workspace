@@ -2,17 +2,17 @@
 
 ## Purpose
 
-Record significant, evidence-supported decisions that explain why this workspace is organized as it is and guide future maintenance without duplicating its architecture or feature map.
+Record significant, evidence-supported decisions that explain why KHWAMI is organized as it is and guide future maintenance without duplicating its architecture or feature map.
 
 ## Context
 
-This documentation-first workspace standardizes reusable assets for AI-assisted engineering. `ROADMAP.md` identifies the workspace plan and `WORKSPACE_STATE.md` records the completed Phase 5 AI Workspace Optimization milestone.
+KHWAMI's documentation-first resources standardize reusable assets for AI-assisted engineering. `ROADMAP.md` identifies the KHWAMI plan and `WORKSPACE_STATE.md` records the completed Phase 5 KHWAMI Optimization milestone.
 
 The repository has no dedicated ADR directory or formal decision-record format. The decisions below are reconstructed from current authoritative documentation and relevant Git history; unrecorded rationale and alternatives are identified as unknown.
 
 ## Scope
 
-This document covers repository-level decisions about workspace governance, documentation layering, prompt-library organization, and repository intelligence.
+This document covers repository-level decisions about KHWAMI governance, documentation layering, prompt-library organization, and repository intelligence.
 
 It excludes personal engineering preferences, routine content choices, individual prompt wording, and undocumented historical motivations.
 
@@ -22,7 +22,7 @@ It excludes personal engineering preferences, routine content choices, individua
 
 | Decision | Evidence | Confirmed rationale | Consequence |
 | --- | --- | --- | --- |
-| Use a phase-based roadmap as the workspace plan. | `ROADMAP.md` defines completed phases, future phases, and describes itself as the single source of truth. | Track progress, prevent repeated work, organize reusable assets, and support workspace evolution. | New workspace capabilities are planned and tracked by phase. |
+| Use a phase-based roadmap as the KHWAMI plan. | `ROADMAP.md` defines completed phases, future phases, and describes itself as the single source of truth. | Track progress, prevent repeated work, organize reusable assets, and support KHWAMI evolution. | New KHWAMI capabilities are planned and tracked by phase. |
 | Separate personal standards, global instructions, task prompts, repository instructions, and repository intelligence by responsibility. | `agents/`, `instructions/`, `prompts/`, and `docs/` are distinct top-level areas with distinct stated purposes. | Avoid duplicated responsibilities and preserve clear sources of truth. | Repository knowledge belongs in `docs/`; AI behavior, operating methods, and task requests remain in their respective layers. |
 | Organize the prompt library by purpose. | `prompts/README.md` defines the `general-engineering/`, `programming-languages/`, and `technologies/` categories. | Enable growth without changing the library's overall structure while retaining reusable, focused prompts. | New prompts should be placed in the narrowest appropriate category and begin from `prompts/TEMPLATE.md`. |
 | Introduce repository intelligence as a dedicated Phase 4 capability. | `ROADMAP.md` and `WORKSPACE_STATE.md` define the Phase 4 goal, milestone, and core documents. | Reduce unnecessary repository exploration, improve AI context, and standardize repository documentation. | `docs/` uses `docs/TEMPLATE.md` as its shared repository-intelligence standard. |
@@ -45,8 +45,8 @@ It excludes personal engineering preferences, routine content choices, individua
 
 ## References
 
-- `ROADMAP.md` - workspace phases, phase objectives, core deliverables, and roadmap governance.
-- `WORKSPACE_STATE.md` - completed milestone, priorities, environment, and installed tooling.
+- `ROADMAP.md` - KHWAMI phases, phase objectives, core deliverables, and roadmap governance.
+- `WORKSPACE_STATE.md` - completed milestone, KHWAMI priorities, environment, and installed tooling.
 - `docs/TEMPLATE.md` - repository-intelligence standard.
 - `docs/repository-overview.md` - repository identity and component context.
 - `docs/architecture.md` - responsibility layers and architectural boundaries.

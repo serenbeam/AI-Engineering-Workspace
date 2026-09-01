@@ -2,17 +2,17 @@
 
 ## Purpose
 
-Provide a high-level index of this personal AI Engineering Workspace so AI assistants can locate its reusable guidance, prompt assets, environment records, and planning documents with minimal exploration.
+Provide a high-level index of KHWAMI so AI assistants can locate its reusable guidance, prompt assets, environment records, and planning documents with minimal exploration.
 
 ## Context
 
-This repository is a documentation-first workspace for standardizing AI-assisted software engineering across projects. `ROADMAP.md` and `WORKSPACE_STATE.md` record Phases 1-5 as complete, including AI Workspace Optimization.
+This repository contains KHWAMI's documentation-first resources for standardizing AI-assisted software engineering across projects. `ROADMAP.md` and `WORKSPACE_STATE.md` record Phases 1-5 as complete, including KHWAMI Optimization.
 
-The workspace separates reusable engineering standards, operational instructions, task prompts, and repository knowledge. This overview describes the repository itself; detailed guidance remains in its authoritative documents.
+KHWAMI separates reusable engineering standards, operational instructions, task prompts, and repository knowledge. This overview describes KHWAMI itself; detailed guidance remains in its authoritative documents.
 
 ## Scope
 
-This overview covers the workspace identity, major structure, confirmed tooling, documented development environment, and high-level components.
+This overview covers KHWAMI's identity, major structure, confirmed tooling, documented development environment, and high-level components.
 
 It excludes detailed architecture, feature mapping, decisions, task procedures, personal AI behavior rules, and prompt contents. Those belong in their dedicated documents or directories.
 
@@ -22,10 +22,10 @@ It excludes detailed architecture, feature mapping, decisions, task procedures, 
 
 | Item | Confirmed information |
 | --- | --- |
-| Repository type | Personal AI engineering workspace and reusable documentation asset library. |
+| Repository type | KHWAMI documentation repository and reusable engineering asset library. |
 | Primary objective | Standardize AI-assisted engineering practices, reusable prompts, repository guidance, and repository intelligence. |
-| Latest completed milestone | AI Workspace Optimization. |
-| Latest completed phase | Phase 5 - AI Workspace Optimization. |
+| Latest completed milestone | KHWAMI Optimization. |
+| Latest completed phase | Phase 5 - KHWAMI Optimization. |
 
 ### Structure
 
@@ -36,8 +36,8 @@ It excludes detailed architecture, feature mapping, decisions, task procedures, 
 | `instructions/repository/` | Template for repository-specific Copilot instructions. |
 | `prompts/` | Reusable Markdown prompt library, its template, and task-, language-, and technology-specific prompts. |
 | `docs/` | Repository-intelligence documentation and its shared template. |
-| `ROADMAP.md` | Authoritative workspace phase plan, deliverables, and future direction. |
-| `WORKSPACE_STATE.md` | Current workspace state, documented environment, installed tools, and active priorities. |
+| `ROADMAP.md` | Authoritative KHWAMI phase plan, deliverables, and future direction. |
+| `WORKSPACE_STATE.md` | Current KHWAMI state, documented environment, installed tools, and active priorities. |
 
 ### Confirmed Technologies and Tools
 
@@ -63,12 +63,13 @@ It excludes detailed architecture, feature mapping, decisions, task procedures, 
 | `prompts/README.md` and `prompts/TEMPLATE.md` | Prompt-library conventions and base structure for new reusable prompts. |
 | `instructions/repository/copilot_instructions-template.md` | Starting template for repository-specific AI guidance. |
 | `docs/TEMPLATE.md` | Shared standard for repository-intelligence documents. |
-| `ROADMAP.md` and `WORKSPACE_STATE.md` | Workspace plan, completion status, priorities, and environment record. |
+| `ROADMAP.md` and `WORKSPACE_STATE.md` | KHWAMI plan, completion status, priorities, and environment record. |
 
 ## References
 
-- `ROADMAP.md` - authoritative plan, phase status, core deliverables, and workspace scope.
-- `WORKSPACE_STATE.md` - authoritative current objective, environment, installed tools, and active priorities.
+- `KHWAMI.md` - canonical KHWAMI identity and terminology.
+- `ROADMAP.md` - authoritative plan, phase status, core deliverables, and KHWAMI scope.
+- `WORKSPACE_STATE.md` - authoritative KHWAMI objective, environment, installed tools, and active priorities.
 - `agents/PERSONAL_AGENTS.md` - personal engineering and AI collaboration standards.
 - `instructions/global/` - operational guidance for AI-assisted development.
 - `prompts/README.md` - prompt-library purpose, organization, and authoring conventions.
@@ -76,7 +77,7 @@ It excludes detailed architecture, feature mapping, decisions, task procedures, 
 
 ## Maintenance
 
-Update this overview when the repository purpose, phase status, major directory structure, core tooling, documented development environment, or key workspace components change.
+Update this overview when KHWAMI's purpose, phase status, major directory structure, core tooling, documented development environment, or key components change.
 
 Revise or remove claims when their source documents no longer support them. Do not update this overview for individual prompt wording or temporary task activity unless it changes repository-level understanding.
 
@@ -84,4 +85,4 @@ Revise or remove claims when their source documents no longer support them. Do n
 
 - The absence of application tooling is a confirmed observation from the current repository root; revise this statement if package, build, test, runtime, or deployment configuration is added.
 - The repository instruction template is `instructions/repository/copilot_instructions-template.md`.
-- Phase 5 — AI Workspace Optimization is complete. Phase 4's four core documents remain `repository-overview.md`, `architecture.md`, `feature-map.md`, and `decisions.md`.
+- Phase 5 — KHWAMI Optimization is complete. Phase 4's four core documents remain `repository-overview.md`, `architecture.md`, `feature-map.md`, and `decisions.md`.

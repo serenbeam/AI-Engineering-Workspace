@@ -1,4 +1,4 @@
-# AI Workspace State
+# KHWAMI State
 
 > Last Updated: 2026-08-21
 > Version: 3.2
@@ -9,7 +9,7 @@
 
 Current Phase
 
-Phase 5 — AI Workspace Optimization (completed); Phase 6 — Evidence-Based Advanced Workflow Selection (deferred)
+Phase 5 — KHWAMI Optimization (completed); Phase 6 — Evidence-Based Advanced Workflow Selection (deferred)
 
 Status
 
@@ -19,8 +19,8 @@ Phase 5 capability work complete; Phase 6 waiting for evidence
 
 # Current Objective
 
-Record the completed AI Workspace Optimization milestone and maintain its
-existing guidance as the workspace evolves.
+Record the completed KHWAMI Optimization milestone and maintain its
+existing guidance as KHWAMI evolves.
 
 The completed documentation reduces unnecessary repository scanning, improves engineering context, and remains reusable across projects.
 
@@ -96,10 +96,10 @@ Enabled
 
 ---
 
-# Workspace Structure
+# KHWAMI Structure
 
 ```text
-AI-ENGINEERING-WORKSPACE
+KHWAMI
 │
 ├── agents/
 │   └── PERSONAL_AGENTS.md
@@ -201,7 +201,7 @@ Current priorities
 
 Current priorities
 
-- Completed AI Workspace Optimization
+- Completed KHWAMI Optimization
 - Reusable repository documentation
 - AI context optimization
 - Documentation consistency
@@ -233,13 +233,13 @@ candidates → adopt, defer, or reject based on evidence.
 
 # AI Instructions
 
-When continuing this workspace:
+When continuing KHWAMI:
 
 - Treat Phase 5 capability work as complete; retain its documented closure limitations.
 - Assume Phases 1–5 capability work is complete.
 - Do not repeat completed work.
 - Do not begin Phase 6 implementation until a confirmed recurring workflow gap is documented and the relevant capability is separately scoped.
-- Build on the existing workspace.
+- Build on existing KHWAMI guidance.
 - Maintain a single source of truth.
 - Prefer reusable documentation over project-specific documentation.
 - Keep recommendations technology-agnostic whenever possible.
@@ -249,7 +249,7 @@ When continuing this workspace:
 
 # Current Milestone
 
-AI Workspace Optimization — Capability work complete; closure evidence partial
+KHWAMI Optimization — Capability work complete; closure evidence partial
 
 Objective
 

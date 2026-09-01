@@ -1,4 +1,4 @@
-# AI Engineering Workspace Roadmap
+# KHWAMI Roadmap
 
 > Last Updated: 2026-08-21
 > Version: 3.2
@@ -8,11 +8,11 @@
 
 # Purpose
 
-This roadmap is the single source of truth for the AI Engineering Workspace.
+This roadmap is the single source of truth for KHWAMI.
 
 Its objectives are to:
 
-- Track workspace progress across development phases.
+- Track KHWAMI progress across development phases.
 - Standardize AI-assisted software engineering practices.
 - Prevent repeating completed work.
 - Organize AI-related documentation and workflows.
@@ -22,7 +22,7 @@ Its objectives are to:
 
 # Scope
 
-This roadmap applies to my personal AI Engineering Workspace.
+This roadmap applies to KHWAMI.
 
 Its purpose is to standardize AI-assisted software engineering workflows, development standards, prompt engineering, repository guidance, and reusable engineering assets across projects.
 
@@ -34,7 +34,7 @@ The roadmap focuses on:
 - Prompt library
 - Repository intelligence
 - Development tooling
-- Workspace evolution
+- KHWAMI evolution
 
 ---
 
@@ -78,10 +78,10 @@ Primary AI Tools
 
 ---
 
-# Workspace Architecture
+# KHWAMI Architecture
 
 ```text
-AI-ENGINEERING-WORKSPACE
+KHWAMI
 │
 ├── agents/
 │   └── PERSONAL_AGENTS.md
@@ -234,7 +234,7 @@ Do not repeat completed phases.
 
 # Latest Completed Phase
 
-## Phase 5 — AI Workspace Optimization
+## Phase 5 — KHWAMI Optimization
 
 Status
 
@@ -279,11 +279,11 @@ docs/
 
 ---
 
-## Phase 5 — AI Workspace Optimization
+## Phase 5 — KHWAMI Optimization
 
 Goal
 
-Continuously improve the AI Engineering Workspace.
+Continuously improve KHWAMI.
 
 Tasks
 
@@ -351,11 +351,11 @@ condition is satisfied.
 
 | Milestone | Status |
 | ------------------------- | ------ |
-| Workspace Foundation | ✅ |
+| KHWAMI Foundation | ✅ |
 | AI Workflow Optimization | ✅ |
 | Prompt Library | ✅ |
 | Repository Intelligence | ✅ |
-| AI Workspace Optimization | ✅ |
+| KHWAMI Optimization | ✅ |
 | Advanced AI Engineering | ⬜ |
 
 ---
@@ -416,7 +416,7 @@ Phase 6
 
 Phase status
 
-**Phase 5 — AI Workspace Optimization is complete.**
+**Phase 5 — KHWAMI Optimization is complete.**
 
 Assume:
 
@@ -437,7 +437,7 @@ the activation condition is satisfied.
 
 Do not restart the roadmap.
 
-Continue building on the existing AI Engineering Workspace.
+Continue building on KHWAMI.
 
 ---
 
