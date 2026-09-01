@@ -23,6 +23,7 @@ It excludes personal engineering preferences, routine content choices, individua
 | Decision | Evidence | Confirmed rationale | Consequence |
 | --- | --- | --- | --- |
 | Use a phase-based roadmap as the KHWAMI plan. | `ROADMAP.md` defines completed phases, future phases, and describes itself as the single source of truth. | Track progress, prevent repeated work, organize reusable assets, and support KHWAMI evolution. | New KHWAMI capabilities are planned and tracked by phase. |
+| Keep KHWAMI identity and operating rules in separate documents. | `KHWAMI.md` establishes the identity-only boundary; `KHWAMI_OPERATING_CONTRACT.md` defines operating rules. | Prevent identity and operating-rule duplication while keeping both sources discoverable. | KHWAMI identity remains in `KHWAMI.md`; operating rules remain in the root-level operating contract. |
 | Separate personal standards, global instructions, task prompts, repository instructions, and repository intelligence by responsibility. | `agents/`, `instructions/`, `prompts/`, and `docs/` are distinct top-level areas with distinct stated purposes. | Avoid duplicated responsibilities and preserve clear sources of truth. | Repository knowledge belongs in `docs/`; AI behavior, operating methods, and task requests remain in their respective layers. |
 | Organize the prompt library by purpose. | `prompts/README.md` defines the `general-engineering/`, `programming-languages/`, and `technologies/` categories. | Enable growth without changing the library's overall structure while retaining reusable, focused prompts. | New prompts should be placed in the narrowest appropriate category and begin from `prompts/TEMPLATE.md`. |
 | Introduce repository intelligence as a dedicated Phase 4 capability. | `ROADMAP.md` and `WORKSPACE_STATE.md` define the Phase 4 goal, milestone, and core documents. | Reduce unnecessary repository exploration, improve AI context, and standardize repository documentation. | `docs/` uses `docs/TEMPLATE.md` as its shared repository-intelligence standard. |
@@ -46,6 +47,7 @@ It excludes personal engineering preferences, routine content choices, individua
 ## References
 
 - `ROADMAP.md` - KHWAMI phases, phase objectives, core deliverables, and roadmap governance.
+- `KHWAMI_OPERATING_CONTRACT.md` - KHWAMI operating rules and change-control contract.
 - `WORKSPACE_STATE.md` - completed milestone, KHWAMI priorities, environment, and installed tooling.
 - `docs/TEMPLATE.md` - repository-intelligence standard.
 - `docs/repository-overview.md` - repository identity and component context.

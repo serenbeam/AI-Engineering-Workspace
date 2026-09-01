@@ -36,6 +36,7 @@ It excludes detailed architecture, feature mapping, decisions, task procedures, 
 | `instructions/repository/` | Template for repository-specific Copilot instructions. |
 | `prompts/` | Reusable Markdown prompt library, its template, and task-, language-, and technology-specific prompts. |
 | `docs/` | Repository-intelligence documentation and its shared template. |
+| `KHWAMI_OPERATING_CONTRACT.md` | Canonical KHWAMI operating rules and change-control contract. |
 | `ROADMAP.md` | Authoritative KHWAMI phase plan, deliverables, and future direction. |
 | `WORKSPACE_STATE.md` | Current KHWAMI state, documented environment, installed tools, and active priorities. |
 
@@ -63,11 +64,13 @@ It excludes detailed architecture, feature mapping, decisions, task procedures, 
 | `prompts/README.md` and `prompts/TEMPLATE.md` | Prompt-library conventions and base structure for new reusable prompts. |
 | `instructions/repository/copilot_instructions-template.md` | Starting template for repository-specific AI guidance. |
 | `docs/TEMPLATE.md` | Shared standard for repository-intelligence documents. |
+| `KHWAMI_OPERATING_CONTRACT.md` | Canonical KHWAMI operating rules and change-control contract. |
 | `ROADMAP.md` and `WORKSPACE_STATE.md` | KHWAMI plan, completion status, priorities, and environment record. |
 
 ## References
 
 - `KHWAMI.md` - canonical KHWAMI identity and terminology.
+- `KHWAMI_OPERATING_CONTRACT.md` - canonical KHWAMI operating rules and change-control contract.
 - `ROADMAP.md` - authoritative plan, phase status, core deliverables, and KHWAMI scope.
 - `WORKSPACE_STATE.md` - authoritative KHWAMI objective, environment, installed tools, and active priorities.
 - `agents/PERSONAL_AGENTS.md` - personal engineering and AI collaboration standards.

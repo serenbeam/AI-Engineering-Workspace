@@ -30,6 +30,7 @@ It excludes individual prompt internals, application features, runtime flows, an
 | Technology-specific prompt guidance | `prompts/technologies/` | `react.md`, `react-native.md`, `nodejs.md`, `express.md` | Confirmed |
 | Prompt-library authoring | `prompts/README.md`, `prompts/TEMPLATE.md` | All prompt categories | Confirmed |
 | Repository-intelligence authoring | `docs/TEMPLATE.md` | `docs/repository-overview.md`, `docs/architecture.md`, `docs/feature-map.md`, and `docs/decisions.md` | Confirmed |
+| KHWAMI operating contract | `KHWAMI_OPERATING_CONTRACT.md` | `KHWAMI.md`, `README.md`, and KHWAMI governance documents | Confirmed |
 | KHWAMI planning and state tracking | `ROADMAP.md`, `WORKSPACE_STATE.md` | All KHWAMI layers | Confirmed |
 
 ### Feature Location Guide
@@ -41,6 +42,7 @@ It excludes individual prompt internals, application features, runtime flows, an
 | Create repository-specific AI guidance | `instructions/repository/copilot_instructions-template.md` |
 | Select or author a reusable task prompt | `prompts/README.md`, then the applicable prompt category |
 | Understand KHWAMI | `docs/repository-overview.md`, then `docs/architecture.md` |
+| Understand KHWAMI operating rules | `KHWAMI_OPERATING_CONTRACT.md` |
 | Check phase status, priorities, or planned deliverables | `ROADMAP.md` and `WORKSPACE_STATE.md` |
 
 ### Boundaries and Uncertainty
@@ -52,6 +54,7 @@ It excludes individual prompt internals, application features, runtime flows, an
 ## References
 
 - `docs/TEMPLATE.md` - required repository-intelligence structure and evidence rules.
+- `KHWAMI_OPERATING_CONTRACT.md` - KHWAMI operating rules and change-control contract.
 - `docs/repository-overview.md` - repository identity, component index, and environment context.
 - `docs/architecture.md` - responsibility layers, boundaries, and information flows.
 - `prompts/README.md` and `prompts/TEMPLATE.md` - prompt-library structure and authoring conventions.

@@ -27,7 +27,7 @@ It excludes application architecture, runtime execution, deployment, and detaile
 | Repository instruction template | Provides a starting structure for repository-specific AI guidance. | `instructions/repository/copilot_instructions-template.md` | Does not replace source-of-truth implementation or repository-intelligence documents. |
 | Prompt library | Defines reusable task-request structures for engineering activities, languages, and technologies. | `prompts/` | Does not define persistent repository knowledge. |
 | Repository intelligence | Records concise, evidence-based knowledge about a repository. | `docs/` | Does not define AI behavior, workflows, or task-specific instructions. |
-| KHWAMI governance | Records KHWAMI direction, phase status, priorities, and environment. | `ROADMAP.md`, `WORKSPACE_STATE.md` | Does not duplicate the detailed content owned by the layers above. |
+| KHWAMI governance | Defines KHWAMI operating rules and records KHWAMI direction, phase status, priorities, and environment. | `KHWAMI_OPERATING_CONTRACT.md`, `ROADMAP.md`, `WORKSPACE_STATE.md` | Does not duplicate the detailed content owned by the layers above. |
 
 ### Component Relationships
 
@@ -47,6 +47,9 @@ prompts/
 docs/
         -> repository knowledge for AI-assisted work
 
+KHWAMI_OPERATING_CONTRACT.md
+        -> KHWAMI operating rules and change control
+
 ROADMAP.md + WORKSPACE_STATE.md
         -> KHWAMI direction and current status
 ```
@@ -57,7 +60,7 @@ The arrows express responsibility and intended consultation, not runtime depende
 
 | Flow | Confirmed or inferred | Description |
 | --- | --- | --- |
-| KHWAMI evolution | Confirmed | `ROADMAP.md` defines phases and deliverables; `WORKSPACE_STATE.md` records current status, priorities, and environment. |
+| KHWAMI operation and evolution | Confirmed | `KHWAMI_OPERATING_CONTRACT.md` defines operating rules; `ROADMAP.md` defines phases and deliverables; `WORKSPACE_STATE.md` records current status, priorities, and environment. |
 | Reusable asset authoring | Confirmed | Templates in `prompts/TEMPLATE.md`, `instructions/repository/`, and `docs/TEMPLATE.md` standardize assets created in their respective directories. |
 | AI-assisted repository work | Inferred from document responsibilities | An AI assistant combines applicable personal standards, operating instructions, task prompts, and repository intelligence while treating the target repository as the source of truth. |
 | Repository intelligence maintenance | Confirmed | Repository knowledge is updated when its covered structure, architecture, features, decisions, dependencies, configuration, or authoritative sources change; the documentation impact check identifies whether governance documents also need updates. |
@@ -72,6 +75,7 @@ The arrows express responsibility and intended consultation, not runtime depende
 ## References
 
 - `docs/TEMPLATE.md` - repository-intelligence standard and maintenance model.
+- `KHWAMI_OPERATING_CONTRACT.md` - KHWAMI operating rules and change-control contract.
 - `docs/repository-overview.md` - repository identity, structure, environment, and component index.
 - `agents/PERSONAL_AGENTS.md` - personal standards and documentation principles.
 - `instructions/global/copilot_instructions.md` - global AI behavior and instruction priority.
